@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forest Cafe — Vellimalai Road, Salem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader">
+
+  <video
+    id="loader-video"
+    class="loader-video"
+    autoplay
+    muted
+    playsinline
+    preload="auto"
+  >
+    <source src="assets/loader.webm" type="video/webm">
+    <source src="assets/loader.mp4" type="video/mp4">
+  </video>
+
+  <div class="loader-text">Brewing the experience</div>
+
+</div>
+
+<nav id="nav">
+  <a href="#hero" class="nav-word">Forest Cafe</a>
+  <ul class="nav-links">
+    <li><a href="#soil-to-sip">Coffee</a></li>
+    <li><a href="#menu-products">Menu</a></li>
+    <li><a href="#cafe-products">Products</a></li>
+  </ul>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero-container">
+
+  <!-- Hero Background -->
+  <div class="hero-bg-wrapper">
+
+    <!-- ===== DESKTOP PARALLAX LAYERS ===== -->
+
+    <!-- Layer 1: Sky -->
+    <div
+      class="hero-parallax-layer hero-layer-sky"
+      id="hero-layer-1"
+    >
+      <img
+        src="assets/hero/hero-01-sky.jpg"
+        alt="Forest sky at dawn"
+      >
+    </div>
+
+    <!-- Layer 2: Trees -->
+    <div
+      class="hero-parallax-layer hero-layer-treeline"
+      id="hero-layer-2"
+    >
+      <img
+        src="assets/hero/hero-02-treeline.png"
+        alt="Palm treeline and houses"
+      >
+    </div>
+
+    <!-- Layer 3: Cafe -->
+    <div
+      class="hero-parallax-layer hero-layer-cafe"
+      id="hero-layer-3"
+    >
+      <img
+        src="assets/hero/hero-03-cafe.png"
+        alt="Forest Cafe entrance"
+      >
+    </div>
+
+    <!-- Layer 4: Foreground -->
+    <div
+      class="hero-parallax-layer hero-layer-foreground"
+      id="hero-layer-4"
+    >
+      <img
+        src="assets/hero/hero-04-foreground.png"
+        alt="Hanging plants and cafe table"
+      >
+    </div>
+
+
+    <!-- ===== MOBILE HERO ===== -->
+
+    <div class="hero-mobile-image">
+      <img
+        src="assets/hero/hero-mobile.webp"
+        alt="Forest Cafe"
+      >
+    </div>
+
+
+    <!-- Hero Overlay -->
+    <div class="hero-overlay"></div>
+
+  </div>
+
+
+  <!-- ===== FOREST CAFE HERO BRAND REVEAL ===== -->
+
+  <div class="hero-brand-reveal" id="hero-brand-reveal">
+
+  <svg class="hero-brand-wind" viewBox="0 0 400 160" aria-hidden="true">
+    <path class="wind-line wind-line-1" d="M20,40 Q120,20 220,45 T380,35" />
+    <path class="wind-line wind-line-2" d="M10,95 Q140,75 260,100 T390,90" />
+    <path class="wind-line wind-line-3" d="M40,135 Q160,120 280,140 T370,130" />
+  </svg>
+
+  <img src="assets/logo/logo.png" alt="Forest Cafe emblem" class="hero-brand-logo" id="hero-brand-logo">
+  <div class="hero-brand-text" id="hero-brand-text">FOREST CAFE</div>
+
+  </div>
+
+  <!-- ===== HERO CONTENT ===== -->
+
+  <div class="hero-content">
+
+    <h1 class="hero-title">
+      
+    </h1>
+
+    <p class="hero-subtitle">
+      
+    </p>
+
+  </div>
+
+
+  <!-- ===== LEFT FEATURE CARD ===== -->
+
+  <div class="hero-card card-left">
+
+    <span class="card-icon">☕</span>
+
+    <div class="card-text">
+      <h4>Fresh Brews</h4>
+
+      <p>
+        Artisanal coffee brewed from fresh beans
+      </p>
+    </div>
+
+  </div>
+
+
+  <!-- ===== RIGHT FEATURE CARD ===== -->
+
+  <div class="hero-card card-right">
+
+    <span class="card-icon">🌿</span>
+
+    <div class="card-text">
+      <h4>Organic Farm</h4>
+
+      <p>
+        Relax in our cozy natural ambiance
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ============================================
+     SOIL TO SIP — JOURNEY
+     ============================================ -->
+
+<section id="soil-to-sip" class="soil-journey-section">
+
+  <!-- Background -->
+  <img
+    src="assets/bg/bg1.png"
+    alt=""
+    class="soil-journey-bg"
+  >
+
+  <!-- Cafe Ambience — caption fills the left-side gap
+       reserved before .cafe-ambience-viewport starts -->
+  <div class="ambience-caption">
+    <span class="eyebrow">INSIDE THE CAFE</span>
+    <h3 data-reveal-text>OUR CAFE<br>AMBIENCE</h3>
+  </div>
+
+  <!-- Journey Cards — caption fills the left-side gap
+       reserved by .journey-cards' margin-left -->
+  <div class="soil-caption">
+    <span class="eyebrow">OUR ROOTS</span>
+    <h3 data-reveal-text>OUR<br>JOURNEY</h3>
+  </div>
+
+  <div class="journey-cards">
+
+    <div class="journey-card">
+      <img src="assets/journey/01-soil.jpg" alt="Soil">
+    </div>
+
+    <div class="journey-card">
+      <img src="assets/journey/02-seed.jpg" alt="Seed">
+    </div>
+
+    <div class="journey-card">
+      <img src="assets/journey/03-sprout.jpg" alt="Sprout">
+    </div>
+
+    <div class="journey-card">
+      <img src="assets/journey/04-plant.jpg" alt="Plant">
+    </div>
+
+    <div class="journey-card">
+      <img src="assets/journey/05-cherry.jpg" alt="Coffee Cherry">
+    </div>
+
+    <div class="journey-card">
+      <img src="assets/journey/06-roast.jpg" alt="Roast">
+    </div>
+
+    <div class="journey-card">
+      <img src="assets/journey/07-grind.jpg" alt="Grind">
+    </div>
+
+    <div class="journey-card">
+      <img src="assets/journey/08-sip.jpg" alt="Sip" loading="lazy" width="105" height="105">
+    </div>
+
+  </div>
+
+  <!-- Cafe Ambience Cards -->
+  <div class="cafe-ambience-viewport">
+  <div class="cafe-ambience-cards">
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-01.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-05.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-06.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-11.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-14.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-18.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-19.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-20.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+    <div class="cafe-card">
+      <img src="assets/cafe/cafe-22.jpg" alt="Cafe ambience" loading="lazy" width="150" height="105">
+    </div>
+
+  </div>
+  </div>
+
+</section>
+
+<section id="menu-products" class="menu-products-section">
+
+  <!-- Background -->
+  <img src="assets/bg/coffee-bg.png" alt="" class="menu-products-bg">
+
+  <div class="menu-products-wrap">
+
+    <!-- 1. TOP: MENU HIGHLIGHTS SECTION -->
+    <div class="menu-highlights-layout">
+      <!-- Left Column -->
+      <div class="menu-highlights-left">
+        <span class="eyebrow-highlights">MENU HIGHLIGHTS</span>
+        <h2 class="highlights-title" data-reveal-text>MADE WITH LOVE,<br>SERVED WITH CARE</h2>
+        <button type="button" class="btn-view-menu" id="openMenuBtn">
+          EXPLORE MENU &rarr;
+        </button>
+      </div>
+
+      <!-- Right Column: 5 Cards Grid -->
+      <div class="menu-highlights-right">
+        <div class="highlight-card">
+          <div class="highlight-img-wrap"><img src="assets/menu/menu-03.jpg" alt="Coconut Latte"></div>
+          <h4>COCONUT LATTE</h4>
+          <span class="price">₹180</span>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-img-wrap"><img src="assets/menu/menu-04.jpg" alt="Forest Cappuccino"></div>
+          <h4>FOREST CAPPUCCINO</h4>
+          <span class="price">₹160</span>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-img-wrap"><img src="assets/menu/menu-05.jpg" alt="Chocolate Mocha"></div>
+          <h4>CHOCOLATE MOCHA</h4>
+          <span class="price">₹190</span>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-img-wrap"><img src="assets/menu/menu-07.jpg" alt="Banana Cake"></div>
+          <h4>BANANA CAKE</h4>
+          <span class="price">₹120</span>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-img-wrap"><img src="assets/menu/menu-10.jpg" alt="Cinnamon Roll"></div>
+          <h4>CINNAMON ROLL</h4>
+          <span class="price">₹150</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ============================================
+     PRODUCTS SECTION (COFFEE BG)
+     ============================================ -->
+<section id="cafe-products-section" class="bg2-section">
+  <img src="assets/bg/bg2.png" alt="" class="bg2-img">
+
+  <div class="menu-products-wrap">
+
+    <!-- OUR CAFE PRODUCTS (CLAYMORPHISM SECTION) -->
+    <div class="cafe-products-container" id="cafe-products">
+      
+      <!-- Left Side: 4 Product Cards Grid -->
+      <div class="products-clay-grid">
+        <div class="cafe-prod-card">
+          <div class="cafe-prod-img-wrap">
+            <img src="assets/cafeproduct/menu-08.jpg" alt="Pure Coffee Powder">
+          </div>
+          <h4>PURE COFFEE POWDER</h4>
+          <span class="price">₹180</span>
+        </div>
+
+        <div class="cafe-prod-card">
+          <div class="cafe-prod-img-wrap">
+            <img src="assets/cafeproduct/menu-08.jpg" alt="80/20 Blend">
+          </div>
+          <h4>80/20 BLEND</h4>
+          <span class="price">₹160</span>
+        </div>
+
+        <div class="cafe-prod-card">
+          <div class="cafe-prod-img-wrap">
+            <img src="assets/cafeproduct/menu-08.jpg" alt="70/30 Blend">
+          </div>
+          <h4>70/30 BLEND</h4>
+          <span class="price">₹150</span>
+        </div>
+
+        <div class="cafe-prod-card">
+          <div class="cafe-prod-img-wrap">
+            <img src="assets/cafeproduct/menu-08.jpg" alt="Pirandai Thokku">
+          </div>
+          <h4>PIRANDAI THOKKU</h4>
+          <span class="price">₹120</span>
+        </div>
+      </div>
+
+      <!-- Right Side: Content -->
+      <div class="products-text-content">
+        <span class="eyebrow-text">FROM OUR FARM</span>
+        <h2 data-reveal-text>OUR CAFE PRODUCTS</h2>
+        <p>Organic farm-fresh products and handcrafted coffee blends made close to the earth.</p>
+        <button type="button" class="btn-view-menu" id="openMenuBtn2">
+          EXPLORE MENU &rarr;
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FULL MENU LIGHTBOX MODAL -->
+<div id="menuModal" class="menu-modal">
+  <span class="close-modal" id="closeMenuBtn">&times;</span>
+  <div class="modal-content-wrap">
+    <picture>
+      <source media="(max-width: 768px)" srcset="assets/menu/menu-01.png">
+      <img src="assets/menu/menu-landscape.png" alt="Forest Cafe Full Menu" class="modal-img">
+    </picture>
+  </div>
+</div>
+
+<footer class="world-coffee">
+  <div class="wrap">
+    <h2 class="display">Forest Cafe</h2>
+    <div class="eyebrow">Coffee. Land. Stories.</div>
+    <ul class="footer-links">
+      <li><a href="#hero">Back to Top</a></li>
+      <li><a href="#soil-to-sip">Our Coffee</a></li>
+      <li><a href="#menu-products">Menu</a></li>
+      <li><a href="#cafe-products">Products</a></li>
+      <li><a href="https://maps.google.com" target="_blank" rel="noopener">Salem &bull; Vellimalai Road</a></li>
+    </ul>
+    <p class="footer-fine">Forest Cafe &middot; Handcrafted with care on Vellimalai Road, Salem &middot; All Rights Reserved</p>
+  </div>
+</footer>
+
+<script src="gsap.min.js"></script>
+<script src="ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
